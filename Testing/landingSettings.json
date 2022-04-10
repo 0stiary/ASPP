@@ -1,0 +1,50 @@
+{
+  "Emails": [
+    {
+      "validItem": "@gmail.com",
+      "invalidItems": [ "@gamil.com", "@gmil.com", "@gimal.com", "@gmal.com", "@gmile.com", "@gmila.com", "gmai.com", "gmsil.com", "gimel.com", "gail.com", "gmoil.com", "gmill.com", "gamail.com", "gamil.com", "gamail.com", "gmqil.com" ]
+    },
+    {
+      "validItem": "@icloud.com",
+      "invalidItems": [ "@icoud.com", "@iclud.com", "@iloud.com" ]
+    },
+    {
+      "validItem": "@yahoo.com",
+      "invalidItems": [ "@yaho.com", "@ahoo.com", "@ayhoo.com", "@yahooo.com" ]
+    },
+    {
+      "validItem": "@outlook.com",
+      "invalidItems": [ "@outlok.com", "@oultook.com", "@ouylook.com" ]
+    },
+    {
+      "validItem": "@hotmail.com",
+      "invalidItems": [ "@homail.com", "@hotmil.com", "@htmail.com", "hotnail.com" ]
+    }
+  ],
+  "Regions": [
+    {
+      "validItem": "RBKIH",
+      "invalidItems": ["RU"]
+    },
+    {
+      "validItem": "RU",
+      "invalidItems": ["KZ", "MD", "AM"]
+    },
+    {
+      "validItem": "ARAB",
+      "invalidItems": ["AE", "EG", "IQ", "JO", "KW", "PS", "SA", "SY"]
+    },
+    {
+      "validItem": "DE",
+      "invalidItems": ["DE", "AT", "CH"]
+    },
+    {
+      "validItem":"MX",
+      "invalidItems": ["AR", "BO", "CL", "CO", "CR", "EC", "ES", "HN", "MX", "NI", "PE", "SV", "VE"]
+    },
+    {
+      "validItem": "ENG",
+      "invalidItems": ["AU", "BD", "BR", "CA", "CN", "FR", "GB", "IL", "IN", "MY", "NL", "PH", "PK", "RO", "SG", "US"]
+    }
+  ]
+}
