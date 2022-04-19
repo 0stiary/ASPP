@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ASPP.App">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Helper">
+    <Position X="0.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAAQgAAAAAAAAAAAAAAAAAAAAAAgAQAEA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPP.Properties.Resources">
+    <Position X="0.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.CleanerPageElements.FileInUse">
+    <Position X="10.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAQAAABAAACAAAAAAAAIAAAAAAEAABAAAA=</HashCode>
+      <FileName>Pages\CleanerPageElements\FileInUse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.LandingPageElements.LandingConfig">
+    <Position X="7.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\LandingPageElements\LandingConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.LandingPageElements.ValidInvalidItem">
+    <Position X="2.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\LandingPageElements\LandingConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.LandingPageElements.User" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAACAAAAAEAAAAAAAAAAIAAAAACAAAAAAAABI=</HashCode>
+      <FileName>Pages\LandingPageElements\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ASPP.Pages.ParserPageElements.LoginStatus">
+    <Position X="12.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Pages\ParserPageElements\LoginStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.ParserPageElements.TypeformUser">
+    <Position X="10" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABEAAAAAAAAAAAAAAAAAAAQAAAAAAI=</HashCode>
+      <FileName>Pages\ParserPageElements\TypeformUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.CleanerPage" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgAGAAAAAAEAAAAgQAAIQAAABAAAAEAAAAAAAAAQAAA=</HashCode>
+      <FileName>Pages\CleanerPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPP.Pages.Extensions">
+    <Position X="7.25" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAABAAAAAIAAgAAAAABAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Pages\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPP.Pages.LandingPage" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAACAAAAAAAAAAAQAAABAAAABAAABAAAAAQAAA=</HashCode>
+      <FileName>Pages\LandingPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPP.Pages.ParserPage" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgBQAAAAAAAEAAAAAABEAAAAAAAAIAAAAACAA=</HashCode>
+      <FileName>Pages\ParserPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="ASPP.Credentials">
+    <Position X="12.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Credentials.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ASPP.Pages.CleanerPageElements.FileStatuses">
+    <Position X="10.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAgAAA=</HashCode>
+      <FileName>Pages\CleanerPageElements\FileStatuses.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -7,7 +7,6 @@
     Title="MainWindow"
     Width="900"
     Height="450"
-    KeyDown="Window_KeyDown"
     Left="0"
     ResizeMode="NoResize"
     Top="0"
@@ -54,7 +53,7 @@
                     Background="Chartreuse"
                     BorderThickness="3"
                     Click="PackingButton_OnClick"
-                    Content="Pack &amp; ZIP"
+                    Content="Users to files"
                     Opacity="0.8" />
             </StackPanel>
             <Button

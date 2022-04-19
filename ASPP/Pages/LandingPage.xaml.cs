@@ -84,11 +84,12 @@ namespace ASPP.Pages
 		private void AggregateLandingButton_Click(object sender, RoutedEventArgs e)
 		{
 			if (LandingTextBox.Text.IsNullOrWhitespace()) 
-				return;
+				return;	
 			
 			var landingFile = new FileInfo(Environment.GetEnvironmentVariable(LandingFilePathHeader));
 
-			if (MessageBox.Show("Please, format columns in file by that order - id, login, email, country, platform, than click OK", "Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK)
+			if (MessageBox.Show("Please, format columns in file by that order - id, login, email, country, platform, than click OK", 
+				"Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK)
 				return;
 
 			Dispatcher.InvokeAsync(() =>

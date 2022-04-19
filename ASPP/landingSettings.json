@@ -2,7 +2,7 @@
   "Emails": [
     {
       "validItem": "@gmail.com",
-      "invalidItems": [ "@gamil.com", "@gmil.com", "@gimal.com", "@gmal.com", "@gmile.com", "@gmila.com", "gmai.com", "gmsil.com", "gimel.com", "gail.com", "gmoil.com", "gmill.com", "gamail.com", "gamil.com", "gamail.com", "gmqil.com" ]
+      "invalidItems": [ "@gamil.com", "@gmil.com", "@gimal.com", "@gmal.com", "@gmile.com", "@gmila.com", "@gmai.com", "@gmsil.com", "@gimel.com", "@gail.com", "@gmoil.com", "@gmill.com", "@gamail.com", "@gamil.com", "@gamail.com", "@gmqil.com" ]
     },
     {
       "validItem": "@icloud.com",
@@ -18,12 +18,12 @@
     },
     {
       "validItem": "@hotmail.com",
-      "invalidItems": [ "@homail.com", "@hotmil.com", "@htmail.com", "hotnail.com" ]
+      "invalidItems": [ "@homail.com", "@hotmil.com", "@htmail.com", "@hotnail.com" ]
     }
   ],
   "Regions": [
     {
-      "validItem": "RBKIH",
+      "validItem": "PBKIH",
       "invalidItems": ["RU"]
     },
     {

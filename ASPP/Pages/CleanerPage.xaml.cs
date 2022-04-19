@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ASPP.Pages.CleanerPageElements;
+using OfficeOpenXml;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,8 +9,6 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using ASPP.Pages.CleanerPageElements;
-using OfficeOpenXml;
 
 namespace ASPP.Pages
 {
@@ -23,8 +23,6 @@ namespace ASPP.Pages
 		private CleanerPage()
 		{
 			InitializeComponent();
-
-			ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 		}
 	}
 	public partial class CleanerPage : Page
@@ -102,6 +100,8 @@ namespace ASPP.Pages
 							case ".xlsx":
 								await Task.Run(() => ClearExcelFile(file));
 								break;
+							default:
+								throw new Exception("Incorrect extension of the file");
 						}
 						elementFileInUse.Status = FileStatuses.Done;
 					}

@@ -2,7 +2,7 @@
 
 namespace ASPP.Pages.CleanerPageElements
 {
-	public sealed class FileStatuses
+	public struct FileStatuses
 	{
 		public const string Done = "Done";
 		public const string InProgress = "In Progress";
