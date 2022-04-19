@@ -104,7 +104,7 @@ namespace ASPP.Pages
 
 		private void ParserButton_OnClick(object sender, RoutedEventArgs e)
 		{
-			Dispatcher.InvokeAsync(async () =>
+			_ = Dispatcher.InvokeAsync(async () =>
 			{
 			var st = DateTime.Now;
 
@@ -202,7 +202,7 @@ namespace ASPP.Pages
 				try
 				{
 					string url = "https://ask.fm/" + userLoginStatus.Login;
-					string htmlPage =await webClient.DownloadStringTaskAsync(url); //Html page (code) of user`s page
+					string htmlPage = await webClient.DownloadStringTaskAsync(url); //Html page (code) of user`s page
 					Console.WriteLine($@"{userLoginStatus.Login} - Downloaded");
 					var isUserActive = true;
 
@@ -260,11 +260,11 @@ namespace ASPP.Pages
 			{
 				foreach (var loginStatus in loginStatuses)
 				{
-					if (string.Compare(typeformUser.Login, loginStatus.Login, CultureInfo.CurrentCulture, CompareOptions.IgnoreNonSpace) == 0)
+					if (string.Compare(typeformUser.Login, loginStatus.Login, CultureInfo.CurrentCulture, CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreCase) == 0)
 					{
 						typeformUser.Login = loginStatus.Login;
 						break;
-					}	
+					}
 				}
 			}
 
@@ -274,7 +274,7 @@ namespace ASPP.Pages
 				typeformSheet.Cells.Clear();
 
 				for (int i = 0; i < typeformHeaders.Length; i++)
-					typeformSheet.Cells[1, i+1].Value = typeformHeaders[i];
+					typeformSheet.Cells[1, i + 1].Value = typeformHeaders[i];
 
 				int row = 2;
 
@@ -295,7 +295,7 @@ namespace ASPP.Pages
 			AppInfoText.Text = $"Base total - {BeforeParsingDataGrid.Items.Count} -> final - {typeformUsersList.Count}, OK = {loginStatuses.Count(ls => ls.Status == "OK")}";
 
 			AfterParsingDataGrid.Cursor = null;
-			});
+		});
 		}
-}
+	}
 }
